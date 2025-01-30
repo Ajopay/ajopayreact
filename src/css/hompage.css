@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.nav {
+  background-color: #ff6700;
+  width: 100%;
+  height: 13rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+.logomark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.logomark p {
+  color: white;
+  font-size: 2rem;
+}
+.logomark img {
+  width: 5rem;
+}
+
+.slogan p {
+  color: white;
+  font-size: 2rem;
+}
+
+.nav .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav .links p {
+  color: white;
+  font-size: 1.5rem;
+}
+.nav .links .p {
+  background-color: white;
+  color: #ff6700;
+  font-weight: 600;
+  padding: 1rem 2rem;
+}
+
+.hompage_article1 {
+  background-image: url("../images/image.png");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 5rem;
+  padding: 10rem;
+}
+
+.hompage_article1 .lhs {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  /* gap: 5rem; */
+}
+.hompage_article1 .lhs h1 {
+  font-size: 7rem;
+  width: 55rem;
+}
+.hompage_article1 .lhs h3 {
+  font-size: 2rem;
+  color: #ff6700;
+}
+.hompage_article1 .lhs p:last-child {
+  color: rgb(150, 0, 0);
+}

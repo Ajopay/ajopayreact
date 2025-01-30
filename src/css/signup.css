@@ -1,0 +1,103 @@
+.Signup {
+  background-image: url(../images/image.png);
+  width: 100%;
+  /* height: 100dvh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem;
+}
+
+.signup_box {
+  border-radius: 0.2rem;
+  padding: 5.4rem 8.9rem;
+  width: 50rem;
+  border: 1px solid #e0e0e0;
+  border-top: 8px solid #f15f3f;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.signup_box .logo {
+  display: flex;
+  font-size: 3rem;
+  gap: 1rem;
+  font-weight: 600;
+}
+.signup_box .logo img {
+  width: 4rem;
+}
+
+.signup_box .Slogan {
+  font-size: 2rem;
+  width: 100%;
+  padding-bottom: 2rem;
+  border-bottom: 0.2rem solid black;
+  text-align: center;
+  font-weight: 600;
+}
+.signup_box form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2.5rem;
+  flex-direction: column;
+}
+.signup_box form .form_title {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.signup_box form input {
+  width: 100%;
+  border: none;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.44);
+  outline: none;
+  height: 3rem;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+.signup_box form input:focus {
+  border: none;
+  border-bottom: 0.2rem solid black;
+  outline: none;
+}
+.password {
+  width: 100%;
+}
+.terms_condition_container {
+  display: flex;
+  /* width: 100%; */
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.terms_condition_checkbox {
+  width: 1.5rem !important;
+  height: 1.5rem;
+}
+.terms_condition_container label,
+.signup_link,
+.login_link {
+  font-size: 1.4rem;
+}
+.signup_box form button {
+  width: 100%;
+  padding: 1.5rem;
+  color: white;
+  background: #f15f3f;
+  border: none;
+  font-size: 1.6rem;
+}
+.signup_link span {
+  color: #007bff;
+}
+.login_link span,
+.login_link span p {
+  color: red;
+}
