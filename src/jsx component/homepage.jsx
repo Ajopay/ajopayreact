@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../SVG/flutter_white.svg";
 import "../css/hompage.css";
 import topimg from "../images/topBackImg.6ae66675.png";
-import SignUp from "../jsx component/signupPage";
+// import SignUp from "../jsx component/signupPage";
 
 function HomePage() {
   return (
@@ -23,9 +23,11 @@ function HomePage() {
           <p>CONTACT</p>
           <p>API DOCUMENTATION</p>
           <p>LOGIN</p>
-          <Link to="/SignUp" element={<SignUp />} className="p">
-            REGISTER
-          </Link>
+          <p>
+            <Link to="/SignUp" className="p">
+              REGISTER
+            </Link>
+          </p>
         </div>
       </div>
 

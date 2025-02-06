@@ -3,9 +3,11 @@ import Orange_logo from "../SVG/flutter_colored.svg";
 import visiblee from "../SVG/visibility.svg";
 import invisible from "../SVG/visibility_off.svg";
 import "../css/signup.css";
+import { Link } from "react-router-dom";
 
 function SignIn() {
   const [visible, setVisible] = useState(false);
+
   return (
     <div className="Signup">
       <div className="signup_box">
@@ -44,11 +46,15 @@ function SignIn() {
               <img src={visible ? invisible : visiblee} alt="" />
             </span>
           </div>
+
           <button>Login</button>
         </form>
         <p className="login_link">
           Dont have an account?
-          <span> Sign up instead </span>
+          <span>
+            {" "}
+            <Link to="/SignUp"> Sign up instead</Link>{" "}
+          </span>
           <br />
           <span>Forgot your password?</span>
         </p>
