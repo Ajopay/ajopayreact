@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import send from "../SVG/send.svg";
+import React, { useState } from "react";
 import "../css/Modal.css";
 
 function TransferModal({ closeTransferModal, accountNumber }) {
